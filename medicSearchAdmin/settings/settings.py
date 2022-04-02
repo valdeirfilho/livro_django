@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-f5-pf*wb$xqo35#krp%4qs(a^h5a^-c8gw=b_g+5qf3)p*cul2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# ALLOWED_HOSTS = []
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'medicSearch'
 ]
 
 MIDDLEWARE = [
